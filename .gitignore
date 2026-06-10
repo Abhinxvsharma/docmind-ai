@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+
+# ChromaDB vector store (large, auto-regenerated)
+vector_store/
+
+# Uploaded PDFs (user data, not code)
+temp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

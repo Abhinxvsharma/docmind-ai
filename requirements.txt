@@ -1,0 +1,35 @@
+# ──────────────────────────────────────────────────────────────
+# requirements.txt — RAG Pipeline Project
+# Install with: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────
+# NOTE: Ollama itself is NOT a pip package.
+# Download and install it from: https://ollama.com/download
+# Then pull the required models:
+#   ollama pull nomic-embed-text
+#   ollama pull phi3:mini
+# ──────────────────────────────────────────────────────────────
+
+# ── FastAPI Backend ───────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0        # ASGI server to run FastAPI  →  uvicorn main:app --reload
+python-multipart>=0.0.9          # Required for file uploads (UploadFile) in FastAPI
+pydantic>=2.7.0                  # Request/response validation (QueryRequest model)
+
+# ── Streamlit Frontend ────────────────────────────────────────
+streamlit>=1.38.0
+requests>=2.32.0                 # HTTP client used by frontend to call the backend
+
+# ── LangChain Core ────────────────────────────────────────────
+langchain-core>=0.3.0            # Base classes: Document, ChatPromptTemplate, BaseMessage
+langchain-text-splitters>=0.3.0  # RecursiveCharacterTextSplitter
+
+# ── LangChain Integrations ────────────────────────────────────
+langchain-community>=0.3.0       # PyPDFLoader, DirectoryLoader
+langchain-chroma>=0.1.4          # Chroma vector store wrapper
+langchain-ollama>=0.2.0          # OllamaEmbeddings, ChatOllama
+
+# ── Vector Database ───────────────────────────────────────────
+chromadb>=0.5.0                  # ChromaDB engine (used internally by langchain-chroma)
+
+# ── PDF Parsing ───────────────────────────────────────────────
+pypdf>=4.3.0                     # PDF reader used internally by PyPDFLoader

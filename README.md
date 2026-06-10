@@ -361,8 +361,9 @@ curl -X DELETE http://127.0.0.1:8000/document/handbook.pdf
 
 *Passionate about building AI/ML solutions that make a real-world impact 🚀*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinav-sharma-a73981382/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhinxvsharma)
+
 
 B.Tech CSE — Rayat Bahra Institute of Engineering & Nano-Technology, Hoshiarpur
 

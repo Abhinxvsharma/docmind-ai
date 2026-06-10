@@ -83,17 +83,17 @@ Built for developers, researchers, and teams who need to query internal knowledg
 ### Upload & Document Management
 > Upload PDFs and see all ingested documents with one-click deletion.
 
-![Upload Panel](https://raw.githubusercontent.com/your-username/docmind-ai/main/screenshots/upload.png)
+https://raw.githubusercontent.com/Abhinxvsharma/docmind-ai/main/screenshots/upload.png
 
 ### Chat Interface
 > Ask anything about your documents and get grounded, cited answers.
 
-![Chat Interface](https://raw.githubusercontent.com/your-username/docmind-ai/main/screenshots/chat.png)
+https://raw.githubusercontent.com/Abhinxvsharma/docmind-ai/main/screenshots/chat.png
 
 ### Rich Answers with Source Cards
 > Responses include page-level citations so you always know where the answer came from.
 
-![Source Cards](https://raw.githubusercontent.com/your-username/docmind-ai/main/screenshots/sources.png)
+https://raw.githubusercontent.com/Abhinxvsharma/docmind-ai/main/screenshots/sources.png
 
 > 📌 *Replace the screenshot URLs above with actual paths after adding your images to the repo.*
 

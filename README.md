@@ -371,12 +371,6 @@ B.Tech CSE — Rayat Bahra Institute of Engineering & Nano-Technology, Hoshiarpu
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
-
-See [LICENSE](LICENSE) for full details.
-
 ---
 
 <div align="center">
